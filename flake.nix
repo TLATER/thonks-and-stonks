@@ -12,7 +12,7 @@
     system = "x86_64-linux";
     pkgs = nixpkgs.legacyPackages.${system};
   in {
-    packages.${system}.default =
+    packages.${system}.elytrant =
       pkgs.stdenv.mkDerivation {
         pname = "elytrant";
         version = "1.0";
@@ -23,7 +23,7 @@
         buildInputs = with pkgs; [ zip ];
 
         buildPhase = ''
-          zip -r elytrant.zip .
+          (cd elytrant && zip -r ../elytrant.zip .)
         '';
 
         installPhase = ''
