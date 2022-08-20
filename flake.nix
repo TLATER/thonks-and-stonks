@@ -12,7 +12,7 @@
     system = "x86_64-linux";
     pkgs = nixpkgs.legacyPackages.${system};
   in {
-    packages.${system}.elytrant =
+    packages.${system}.datapack =
       pkgs.stdenv.mkDerivation {
         pname = "elytrant";
         version = "1.0";
@@ -23,12 +23,12 @@
         buildInputs = with pkgs; [ zip ];
 
         buildPhase = ''
-          (cd elytrant && zip -r ../elytrant.zip .)
+          (cd datapack && zip -r ../thonk-stonk-balance-datapack.zip .)
         '';
 
         installPhase = ''
           mkdir -p $out
-          cp elytrant.zip $out/
+          cp thonk-stonk-balance-datapack.zip $out/
         '';
       };
   };
