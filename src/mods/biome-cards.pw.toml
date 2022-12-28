@@ -1,0 +1,13 @@
+name = "Biome Cards"
+filename = "BiomeCards-1.0.8.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "70ce0ebd5515d967d1c09215b49d5794579424c0"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 3755722
+project-id = 610213

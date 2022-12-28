@@ -1,0 +1,13 @@
+name = "Wall-Jump! [FORGE]"
+filename = "walljump-forge-1.18.1-1.3.7.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "8d2baf2c28043815b2b1cdb66d6d9b1ef721e2c4"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 3597135
+project-id = 295319
