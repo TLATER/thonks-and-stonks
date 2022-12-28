@@ -669,3 +669,18 @@ metafile = true
 file = "mods/yungs-better-mineshafts-forge.pw.toml"
 hash = "23c78b6156a0aef262ef2964d744d50689a193a91991412b68a0da3e5c3eeaef"
 metafile = true
+
+[[files]]
+file = "resourcepacks/faithless.pw.toml"
+hash = "db3803cb9bfbdd3c6162b3de1ed674640b790faab6c1672f3c1a7e58213d4ca0"
+metafile = true
+
+[[files]]
+file = "shaderpacks/sildurs-vibrant-shaders-extreme-vl.pw.toml"
+hash = "630543fd80c1d6beb8218287cc4d1edac8d818ce0ab35f54ac1fd364302a9216"
+metafile = true
+
+[[files]]
+file = "shaderpacks/sildurs-vibrant-shaders-medium.pw.toml"
+hash = "a6ec2891b06a0b8c959f47db63c1f8782a3380f97cc363376559b7fbeeb61cc0"
+metafile = true
