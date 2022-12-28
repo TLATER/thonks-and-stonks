@@ -1,0 +1,13 @@
+name = "Sweet Concrete"
+filename = "sweetconcrete-1.18.2-1.8.1.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "3bb541397d26bca1c6fdaee37dcb589469807699"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 3723960
+project-id = 351052

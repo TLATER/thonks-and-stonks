@@ -1,0 +1,13 @@
+name = "Path To Dirt"
+filename = "PathToDirt-1.4.2-mc1.18.2.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "21166d903dd2a3adc9122c8287db3f818a20600f"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 3833489
+project-id = 373323

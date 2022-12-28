@@ -1,0 +1,13 @@
+name = "Platter"
+filename = "Platter-1.1-1.18.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "fc5e7c377655d74389725516be90a864f6e548c5"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 3605296
+project-id = 381581

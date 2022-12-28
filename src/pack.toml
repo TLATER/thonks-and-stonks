@@ -1,0 +1,16 @@
+name = "Thonks & Stonks"
+author = "Tristan Maat, Will Frost, Johan ???"
+version = "4.0.0"
+pack-format = "packwiz:1.1.0"
+
+[index]
+file = "index.toml"
+hash-format = "sha256"
+hash = "8eaa6378d8b59cfb19fbf8bffe6aca189d70b063649e20dc7192fd20787a785a"
+
+[versions]
+forge = "40.1.86"
+minecraft = "1.18.2"
+
+[options]
+acceptable-game-versions = ["1.18.1"]

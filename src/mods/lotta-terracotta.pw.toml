@@ -1,0 +1,13 @@
+name = "Lotta Terracotta"
+filename = "lottaterracotta-1.18.2-1.4.1.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "c339f42d5b55fefc2ee11ed0176c69a5a1292b7f"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 3723958
+project-id = 351060

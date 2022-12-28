@@ -12,6 +12,7 @@
   outputs = {
     self,
     nixpkgs,
+    packwiz,
   }: let
     system = "x86_64-linux";
     pkgs = nixpkgs.legacyPackages.${system};
@@ -33,6 +34,15 @@
         mkdir -p $out
         cp thonk-stonk-balance-datapack.zip $out/
       '';
+    };
+
+    devShells.${system}.default = pkgs.mkShell {
+      packages = with pkgs; [
+        packwiz.packages.${system}.default
+
+        unzip
+        zip
+      ];
     };
   };
 }

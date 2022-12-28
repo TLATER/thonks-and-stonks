@@ -1,0 +1,13 @@
+name = "Custom Cards"
+filename = "CustomCards-1.1.0.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "d26c1fd2b0d3faa27bba9bc5d2d11dd9a028ef21"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 4009482
+project-id = 589475
