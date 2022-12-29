@@ -95,7 +95,7 @@
 
     [world_gen.stella_arcanum]
         #Generate Should Stella Arcanum? [default: true]
-        generate = true
+        generate = false
         #Maximum size of Stella Arcanum veins [default: 3]
         #Range: 0 ~ 100
         max_vein_size = 3
