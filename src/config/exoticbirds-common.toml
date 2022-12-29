@@ -24,15 +24,15 @@
         #Allow ostriches to be ridden. Default = true
         allowOstrichRiding = true
         #Allow phoenixes to be ridden. Default = true
-        allowPhoenixRiding = true
+        allowPhoenixRiding = false
 
     [general.spawning]
         #A list of biomes that no birds are able to spawn in.
         blacklistedSpawningBiomes = []
         #A list of dimensions that no birds are able to spawn in.
-        blacklistedSpawningDimensions = []
+        blacklistedSpawningDimensions = ["twilightforest:twilight_forest"]
         #Allow non-tamed/non-named birds to naturally despawn. Default = false
-        allowDespawning = false
+        allowDespawning = true
 
     [general.cages]
         #Allow other non-hostile mobs to be caught by birdcages. Default = false
