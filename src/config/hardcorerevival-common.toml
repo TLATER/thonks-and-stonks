@@ -2,7 +2,7 @@
 #Range: > -2147483648
 ticksUntilDeath = 2400
 #If true, the timer until death continues even if the player logs out.
-continueTimerWhileOffline = false
+continueTimerWhileOffline = true
 #The time in ticks it takes to rescue a player.
 #Range: > -2147483648
 rescueActionTicks = 40
@@ -22,6 +22,6 @@ glowOnKnockout = true
 #If true, knocked out players are still able to punch nearby enemies.
 allowUnarmedMelee = false
 #If true, knocked out players are still able to fire bows.
-allowBows = false
+allowBows = true
 #If true, knocked out players are still able to fire pistols from Mr Crayfish's Gun Mod.
 allowPistols = false
