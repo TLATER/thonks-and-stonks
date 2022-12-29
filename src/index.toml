@@ -626,6 +626,11 @@ hash = "4c20ef9c03f0955362f40ad8b100b635b58abbe9af00081f50d7da1b98fb2698"
 metafile = true
 
 [[files]]
+file = "mods/textrues-rubidium-options.pw.toml"
+hash = "d9502341fa600fa326bed44c420aef657638b15f1093caeeba6776301cf83f93"
+metafile = true
+
+[[files]]
 file = "mods/the-twilight-forest.pw.toml"
 hash = "34ea4985b3c7035cf0b7444a9d019582c83526782c02e1f448e1b837b656d046"
 metafile = true
