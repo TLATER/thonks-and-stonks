@@ -22,7 +22,7 @@
 
       modpack = pkgs.stdenv.mkDerivation rec {
         pname = "thonks-and-stonks";
-        version = "4.1.0";
+        version = "4.1.0-rc1";
 
         src = pkgs.lib.sources.cleanSource self;
 
