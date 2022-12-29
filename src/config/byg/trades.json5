@@ -190,18 +190,7 @@ to make editing this file much easier.
             "1": [],
             "2": [],
             "3": [],
-            "4": [
-                {
-                    "config": {
-                        "emerald_cost": 3,
-                        "item": "byg:chain_plating",
-                        "max_uses": 12,
-                        "number_of_items": 7,
-                        "villager_xp": 2
-                    },
-                    "type": "byg:items_for_emeralds"
-                }
-            ],
+            "4": [],
             "5": []
         },
         "minecraft:butcher": {
