@@ -1,0 +1,8 @@
+#Tue Dec 27 23:44:27 GMT 2022
+morningFog=true
+Lens_Flares=true
+Adaptive_sharpening=true
+waterA=2.5
+wtexblend=0.10
+uFogDensity=200.0
+Godrays=true
