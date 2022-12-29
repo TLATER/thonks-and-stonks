@@ -897,6 +897,10 @@ file = "options.txt"
 hash = "04e365af7fdd3588bf38e375b7b88db64d3bb440b49d21f1d7951a8f4b585d0c"
 
 [[files]]
+file = "resourcepacks/Faithless1.18 Fixes.zip"
+hash = "991b8cdbab78e2a31c5b94eacaa94a05dfa642676cccea03e6864cfd56fbf440"
+
+[[files]]
 file = "resourcepacks/faithless.pw.toml"
 hash = "db3803cb9bfbdd3c6162b3de1ed674640b790faab6c1672f3c1a7e58213d4ca0"
 metafile = true

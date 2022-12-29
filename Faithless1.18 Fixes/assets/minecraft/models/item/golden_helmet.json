@@ -1,0 +1,94 @@
+{
+    "credit": "Made with Blockbench",
+    "parent": "item/end_portal_frame",
+    "ambientocclusion": false,
+    "textures": {
+        "1": "item/golden_helmet",
+        "lantern": "models/armor/gold_layer_1"
+    },
+    "elements": [
+        {
+            "from": [2.75, -1, 2.8],
+            "to": [13.25, 9.5, 13.3],
+            "faces": {
+                "north": {"uv": [10, 4, 12, 8], "texture": "#lantern"},
+                "east": {"uv": [8, 4, 10, 8], "texture": "#lantern"},
+                "south": {"uv": [14, 4, 16, 8], "texture": "#lantern"},
+                "west": {"uv": [12, 4, 14, 8], "texture": "#lantern"},
+                "up": {"uv": [12, 0, 10, 4], "rotation": 180, "texture": "#lantern"}
+            }
+        },
+        {
+            "name": "gui",
+            "from": [6, 9, 6],
+            "to": [10, 9, 10],
+            "shade": false,
+            "rotation": {"angle": 0, "axis": "y", "origin": [8, 8, 8]},
+            "faces": {
+                "down": {"uv": [0, 0, 16, 16], "texture": "#1"}
+            }
+        },
+        {
+            "from": [3.5, 0, 3.5],
+            "to": [12.5, 9, 12.5],
+            "faces": {
+                "north": {"uv": [2, 4, 4, 8], "texture": "#lantern"},
+                "east": {"uv": [0, 4, 2, 8], "texture": "#lantern"},
+                "south": {"uv": [6, 4, 8, 8], "texture": "#lantern"},
+                "west": {"uv": [4, 4, 6, 8], "texture": "#lantern"},
+                "up": {"uv": [4, 0, 2, 4], "rotation": 180, "texture": "#lantern"}
+            }
+        },
+        {
+            "from": [12.5, 0, 3.5],
+            "to": [3.5, 9, 12.5],
+            "faces": {
+                "north": {"uv": [4, 4, 2, 8], "texture": "#lantern"},
+                "east": {"uv": [6, 4, 4, 8], "texture": "#lantern"},
+                "south": {"uv": [8, 4, 6, 8], "texture": "#lantern"},
+                "west": {"uv": [2, 4, 0, 8], "texture": "#lantern"}
+            }
+        },
+        {
+            "from": [13.25, -1, 2.8],
+            "to": [2.75, 9.5, 13.3],
+            "faces": {
+                "north": {"uv": [12, 4, 10, 8], "texture": "#lantern"},
+                "east": {"uv": [14, 4, 12, 8], "texture": "#lantern"},
+                "south": {"uv": [16, 4, 14, 8], "texture": "#lantern"},
+                "west": {"uv": [10, 4, 8, 8], "texture": "#lantern"}
+            }
+        }
+    ],
+    "gui_light": "front",
+    "display": {
+        "thirdperson_righthand": {
+            "rotation": [14.5, -64, 0],
+            "translation": [0, -1.5, -1.5],
+            "scale": [0.75, 0.75, 0.75]
+        },
+        "thirdperson_lefthand": {
+            "rotation": [14.5, -64, 0],
+            "translation": [0, -1.5, -1.5],
+            "scale": [0.75, 0.75, 0.75]
+        },
+        "firstperson_righthand": {
+            "rotation": [162.5, 48, -170],
+            "translation": [-1, 4.25, 2],
+            "scale": [0.5, 0.5, 0.5]
+        },
+        "firstperson_lefthand": {
+            "rotation": [162.5, 48, -170],
+            "translation": [-1, 4.25, 2],
+            "scale": [0.5, 0.5, 0.5]
+        },
+        "ground": {
+            "translation": [0, 4.5, 0]
+        },
+        "fixed": {
+            "rotation": [0, 0, 0],
+            "translation": [0, 4, 3],
+            "scale": [1, 1, 1]
+        }
+    }
+}
