@@ -18,7 +18,7 @@
     # Automatically remove death waypoints if closer than this many blocks away (distance of 0 disables removal)
     # Default: 0
     # Range: 0 ~ 2147483647
-    death_waypoint_autoremove_distance: 0
+    death_waypoint_autoremove_distance: 1
 
     # Enables creation of death waypoints
     # Default: true
@@ -40,7 +40,7 @@
 
     # Show waypoints in world
     # Default: true
-    in_world_waypoints: true
+    in_world_waypoints: false
 
     # Different ways to render map
     # Default: "none"
