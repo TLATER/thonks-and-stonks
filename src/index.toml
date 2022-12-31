@@ -894,7 +894,8 @@ metafile = true
 
 [[files]]
 file = "options.txt"
-hash = "04e365af7fdd3588bf38e375b7b88db64d3bb440b49d21f1d7951a8f4b585d0c"
+hash = "f959e99629aa314786c9ebc60bfa843280124737e78c3daa796e59d7102ee4af"
+preserve = true
 
 [[files]]
 file = "resourcepacks/Faithless1.18 Fixes.zip"
