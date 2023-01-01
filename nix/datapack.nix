@@ -13,7 +13,7 @@ stdenv.mkDerivation {
   buildInputs = [zip];
 
   buildPhase = ''
-    (cd datapack && zip -r ../thonk-stonk-balance-datapack.zip .)
+    (cd datapack && zip -X ../thonk-stonk-balance-datapack.zip $(find . | sort))
   '';
 
   installPhase = ''

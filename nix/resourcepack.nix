@@ -13,7 +13,7 @@ stdenv.mkDerivation {
   buildInputs = [zip];
 
   buildPhase = ''
-    (cd 'Faithless1.18 Fixes' && zip -r '../Faithless1.18 Fixes.zip' .)
+    (cd 'Faithless1.18 Fixes' && zip -X '../Faithless1.18 Fixes.zip' $(find . | sort))
   '';
 
   installPhase = ''

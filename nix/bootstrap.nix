@@ -96,7 +96,7 @@ in
       cp ${packwiz-installer-bootstrap} minecraft/packwiz-installer-bootstrap.jar
 
       # Zip 'er up
-      zip -r 'Thonks & Stonks-${pack-meta.version}.zip' .
+      zip -X 'Thonks & Stonks-${pack-meta.version}.zip' $(find . | sort)
     '';
 
     installPhase = ''
