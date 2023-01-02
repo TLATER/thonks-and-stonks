@@ -1,12 +1,12 @@
 name = "Thonks & Stonks"
 author = "Tristan Maat, Will Frost, Johan ???"
-version = "4.2.0"
+version = "4.3.0-dev"
 pack-format = "packwiz:1.1.0"
 
 [index]
 file = "index.toml"
 hash-format = "sha256"
-hash = "da45b1337a588e913280e0d12c90d0efb39254021c47a1eb9c24bb86a6e67a9f"
+hash = "702d5db6e4c85abded68730d8cd7ea05dbab4df092923af757af2ef0c7e00064"
 
 [versions]
 forge = "40.1.86"

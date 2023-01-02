@@ -1,0 +1,13 @@
+name = "Save Your Pets"
+filename = "SaveYourPets-1.18-1.0.0.7.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "f63ea1e2e154742416410ffecb4d914fa91f9d40"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 3626457
+project-id = 396019

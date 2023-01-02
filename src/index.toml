@@ -763,6 +763,11 @@ hash = "2f18c42ee016430436278ff89e09cdfd6a8ca9928b90be9dca0954704c888952"
 metafile = true
 
 [[files]]
+file = "mods/save-your-pets.pw.toml"
+hash = "a5766f4dc58ab3d39f0e603154567d9c5122dc3598f51d89e17c3dc13130eebf"
+metafile = true
+
+[[files]]
 file = "mods/selene.pw.toml"
 hash = "26e591b0b07c8ef07f887eaf3feee21d564c891418e3da0304b39972d6ffb106"
 metafile = true
