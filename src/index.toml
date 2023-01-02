@@ -449,7 +449,7 @@ metafile = true
 
 [[files]]
 file = "mods/enchantment-descriptions.pw.toml"
-hash = "1ba74eb25be6a0c1c4296ff1199b4d7d54a926c34b4d96dc816837885519ffaf"
+hash = "9698d77c462cbf16a5c3db9bc3cea684b36f3a26ef9320683f38c9525c678948"
 metafile = true
 
 [[files]]
