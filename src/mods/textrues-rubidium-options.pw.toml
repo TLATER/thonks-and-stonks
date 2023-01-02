@@ -1,6 +1,6 @@
 name = "TexTrue's Rubidium Options"
 filename = "textrues_rubidium_options-1.0.3-mc1.18.2.jar"
-side = "both"
+side = "client"
 
 [download]
 hash-format = "sha1"

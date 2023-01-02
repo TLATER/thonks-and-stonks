@@ -1,6 +1,6 @@
 name = "Equipment Compare [Forge]"
 filename = "EquipmentCompare-1.18.1-1.2.12.jar"
-side = "both"
+side = "client"
 
 [download]
 hash-format = "sha1"
