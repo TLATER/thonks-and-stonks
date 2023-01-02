@@ -24,7 +24,7 @@ stdenv.mkDerivation {
 
     # Create the README file for the main page from the repo readme by
     # substituting the bootstrap link and converting it to html
-    sed 's|https://.*/Thonks & Stonks-.*.zip|./Thonks \& Stonks-${version}.zip|' -i README.md
+    sed 's|[[:digit:]]\+\.[[:digit:]]\+\.[[:digit:]]\+|${version}|' -i README.md
     pandoc -f markdown -t html README.md > src/index.html
 
     # Double check that the resourcepack is up to date; if not, complain!
