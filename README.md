@@ -8,7 +8,7 @@ This modpack is intended to be installed and updated using
 1. Install [Prism Launcher](https://prismlauncher.org/).
 
 2. Download the [bootstrap
-   zip](https://github.com/TLATER/thonks-and-stonks/releases/download/4.2.0/Thonks.Stonks-4.2.0.zip).
+   zip](https://github.com/TLATER/thonks-and-stonks/releases/download/4.2.0-release/Thonks.Stonks-4.2.0.zip).
 
 3. Use Prism Launcher's "add instance" and "import from zip" to import
    the downloaded bootstrap instance.
