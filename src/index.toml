@@ -548,6 +548,11 @@ hash = "fcb294ed1867ab61af110c5ff455f4b5ec8feefc41bc94b4ddad2211277479e8"
 metafile = true
 
 [[files]]
+file = "mods/horseinboat.pw.toml"
+hash = "e142f23ea2c971b6b428a7b68dc0242d62c980d08f9f0f51bc661d11d590a79a"
+metafile = true
+
+[[files]]
 file = "mods/iceberg.pw.toml"
 hash = "26957cccd2e46d96b644f016aac4517184a537aa09d4e433abd767c1211dac05"
 metafile = true
