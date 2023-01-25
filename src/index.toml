@@ -917,5 +917,10 @@ hash = "db3803cb9bfbdd3c6162b3de1ed674640b790faab6c1672f3c1a7e58213d4ca0"
 metafile = true
 
 [[files]]
-file = "shaderpacks/Sildur's Vibrant Shaders v1.41 Extreme-VL.zip.txt"
+file = "shaderpacks/Sildur's Vibrant Shaders v1.50 Extreme-VL.zip.txt"
 hash = "80a2569ac50abfb04f5bf3b40a1307a73b11907107e2c2547b0198e5cb55fda7"
+
+[[files]]
+file = "shaderpacks/sildurs-vibrant-shaders.pw.toml"
+hash = "49c5b9b8ffe979a5bd7a15d19fc5dd088432aa7f4959e5fd17dd6a05913830cc"
+metafile = true

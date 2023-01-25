@@ -1,0 +1,13 @@
+name = "Sildur's Vibrant Shaders"
+filename = "Sildur's Vibrant Shaders v1.50 Extreme-VL.zip"
+side = "client"
+
+[download]
+hash-format = "sha1"
+hash = "98fba2189c28181cd2751fba4fc871bd5eba4878"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 4278029
+project-id = 544096
