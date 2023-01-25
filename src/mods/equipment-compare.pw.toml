@@ -1,13 +1,13 @@
 name = "Equipment Compare [Forge]"
-filename = "EquipmentCompare-1.18.1-1.2.12.jar"
+filename = "EquipmentCompare-1.18.2-forge-1.3.3.jar"
 side = "client"
 
 [download]
 hash-format = "sha1"
-hash = "2a8f0506ddd8f52c22ace1017405d73c98561a2f"
+hash = "c13ee3cbd4a159fb584ba63b6150be2823203ff5"
 mode = "metadata:curseforge"
 
 [update]
 [update.curseforge]
-file-id = 3654272
+file-id = 4360142
 project-id = 502561
