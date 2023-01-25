@@ -177,6 +177,10 @@ file = "config/hardcorerevival-common.toml"
 hash = "dcd6f7345f473e53cf6b7104a364da6ddf51d8569d42da857915151a3a5ccc16"
 
 [[files]]
+file = "config/horse_colors-common.toml"
+hash = "3953ed5a68ab0c2e97f50fe167176b205e38933bcab5b53de8d2aaa87ad4e896"
+
+[[files]]
 file = "config/inventoryhud-client.toml"
 hash = "01431361f730b2615abe1f6487801f06ff628b240001b8a81f167907153e34dd"
 
