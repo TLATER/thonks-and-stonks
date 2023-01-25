@@ -2,16 +2,14 @@
     "parent": "item/end_portal_frame",
     "ambientocclusion": false,
     "textures": {
-        "0": "item/chicken",
+        "0": "item/chicken_model",
         "particle": "item/chicken"
     },
     "elements": [
         {
-            "name": "gui",
             "from": [6, 7, 6],
             "to": [10, 7, 10],
             "shade": false,
-            "rotation": {"angle": 0, "axis": "y", "origin": [8, 8, 8]},
             "faces": {
                 "down": {"uv": [8, 8, 16, 16], "texture": "#0"}
             }

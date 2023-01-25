@@ -31,7 +31,7 @@
         },
         "head": {
             "rotation": [ 0, 180, 0 ],
-            "translation": [ 0, 17, 7],
+            "translation": [ 0, 17, 6],
             "scale":[ 2, 2, 2 ]
         }
     }

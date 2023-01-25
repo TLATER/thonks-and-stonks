@@ -2,18 +2,17 @@
     "parent": "block/block",
     "ambientocclusion": false,
     "textures": {
-        "1": "item/heart_of_the_sea",
+        "1": "item/heart_of_the_sea_model",
+        "3": "item/heart_of_the_sea",
         "2": "item/i_got_a_jar_of_dirt"
     },
     "elements": [
         {
-            "name": "gui",
             "from": [6, -10, 6],
             "to": [10, -10, 10],
             "shade": false,
-            "rotation": {"angle": 0, "axis": "y", "origin": [8, 8, 8]},
             "faces": {
-                "down": {"uv": [8, 8, 16, 16], "texture": "#1"}
+                "down": {"uv": [0, 0, 16, 16], "texture": "#3"}
             }
         },
         {
@@ -81,7 +80,8 @@
             "scale": [0.5, 0.5, 0.5]
         },
         "ground": {
-            "translation": [0, 21, 0]
+            "translation": [0, 14, 0],
+            "scale": [0.6, 0.6, 0.6]
         },
         "gui": {
             "rotation": [270, 0, 0],

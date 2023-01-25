@@ -1,9 +1,8 @@
 {
-    "credit": "Made with Blockbench",
     "parent": "item/end_portal_frame",
     "ambientocclusion": false,
     "textures": {
-        "0": "item/fishing_rod",
+        "0": "item/fishing_rod_model",
         "particle": "item/fishing_rod"
     },
     "elements": [
@@ -109,7 +108,7 @@
         },
         "ground": {
             "rotation": [-40, 0, 0],
-            "scale": [0.68, 0.68, 0.68]
+            "scale": [0.6, 0.6, 0.6]
         },
         "gui": {
             "rotation": [-67.5, 0, 0],

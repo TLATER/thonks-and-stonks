@@ -6,7 +6,7 @@
         "top": "block/enchanting_table_top",
         "particle": "block/enchanting_table_side",
         "side": "block/enchanting_table_side",
-        "lantern": "item/book"
+        "lantern": "item/enchanted_book_model"
     },
     "elements": [
         {

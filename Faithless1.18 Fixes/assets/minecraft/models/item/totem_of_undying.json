@@ -1,16 +1,13 @@
 {
-    "credit": "Made with Blockbench",
     "textures": {
         "particle": "item/totem_of_undying",
-        "lantern": "item/totem_of_undying"
+        "lantern": "item/totem_of_undying_model"
     },
     "elements": [
         {
-            "name": "gui",
             "from": [6, 6, 6],
             "to": [10, 6, 10],
             "shade": false,
-            "rotation": {"angle": 0, "axis": "y", "origin": [8, 8, 8]},
             "faces": {
                 "down": {"uv": [8, 0, 16, 8], "texture": "#lantern"}
             }
@@ -18,7 +15,6 @@
         {
             "from": [6, 3, 6],
             "to": [10, 7, 10],
-            "rotation": {"angle": 0, "axis": "y", "origin": [0, -4, -1]},
             "faces": {
                 "north": {"uv": [2, 2, 4, 4], "texture": "#lantern"},
                 "east": {"uv": [0, 2, 2, 4], "texture": "#lantern"},
@@ -30,7 +26,6 @@
         {
             "from": [5.75, 2.75, 5.75],
             "to": [10.25, 7.25, 10.25],
-            "rotation": {"angle": 0, "axis": "y", "origin": [0, -4, -1]},
             "faces": {
                 "north": {"uv": [2.5, 13.5, 5, 16], "texture": "#lantern"},
                 "east": {"uv": [0, 13.5, 2.5, 16], "texture": "#lantern"},
@@ -42,7 +37,6 @@
         {
             "from": [6.5, 0, 7],
             "to": [9.5, 3, 9],
-            "rotation": {"angle": 0, "axis": "y", "origin": [0, -4, -1]},
             "faces": {
                 "north": {"uv": [1, 5, 2.5, 7], "texture": "#lantern"},
                 "east": {"uv": [0, 5, 1, 7], "texture": "#lantern"},
@@ -76,7 +70,6 @@
         {
             "from": [4, 0, 8],
             "to": [12, 10, 8.1],
-            "rotation": {"angle": 0, "axis": "y", "origin": [0, -4, -1]},
             "faces": {
                 "north": {"uv": [12, 11, 16, 16], "texture": "#lantern"},
                 "south": {"uv": [16, 11, 12, 16], "texture": "#lantern"}
@@ -218,16 +211,8 @@
             "scale": [2, 2, 2]
         },
         "fixed": {
-            "translation": [0, 4, 0],
+            "translation": [0, 7, 0],
             "scale": [1, 1, 1]
         }
-    },
-    "groups": [
-        {
-            "name": "totem_of_undying",
-            "origin": [8, 8, 8],
-            "color": 0,
-            "children": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16]
-        }
-    ]
+    }
 }
