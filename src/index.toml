@@ -189,6 +189,10 @@ file = "config/oculus.properties"
 hash = "2ef01f9b3d66c1dbdcc59802a5ec3ee489c994fa7ad3e63a064d52cf4e90ddd4"
 
 [[files]]
+file = "config/openloader/data/thonk-stonk-balance-datapack.zip"
+hash = "f9a0fedde5e0a59b5c1b8d2264e03e64fb93f8321f70a9368dbfbd1ec67e9f1c"
+
+[[files]]
 file = "config/quark-common.toml"
 hash = "f7665f8bc5e3d72a0160d264a1f71d2888ddc4f73e5c90c7f2b7f1f1581da410"
 
