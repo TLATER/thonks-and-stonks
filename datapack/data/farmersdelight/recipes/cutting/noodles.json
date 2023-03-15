@@ -1,0 +1,14 @@
+{
+  "type": "create:cutting",
+  "ingredients": [
+    {
+      "tag": "forge:dough"
+    }
+  ],
+  "results": [
+    {
+      "item": "farmersdelight:raw_pasta",
+      "count": 1
+    }
+  ]
+}

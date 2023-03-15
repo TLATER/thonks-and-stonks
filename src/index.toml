@@ -190,7 +190,7 @@ hash = "2ef01f9b3d66c1dbdcc59802a5ec3ee489c994fa7ad3e63a064d52cf4e90ddd4"
 
 [[files]]
 file = "config/openloader/data/thonk-stonk-balance-datapack.zip"
-hash = "f9a0fedde5e0a59b5c1b8d2264e03e64fb93f8321f70a9368dbfbd1ec67e9f1c"
+hash = "5035a9f2e086e32f64a20667a4d3a82090e0ff22632afdb56a189e40d3fe5d5b"
 
 [[files]]
 file = "config/quark-common.toml"
