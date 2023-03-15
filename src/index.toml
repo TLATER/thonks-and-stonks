@@ -162,7 +162,7 @@ hash = "f88b63ad0cdae79e2ecd244727fe66e789085137a6f638b358a2f9d33ed575ec"
 
 [[files]]
 file = "config/cobblegenrandomizer-common.toml"
-hash = "f18a06bb4718c09ba6f4c48fd7c3b74202f40931cc3d2cb753b940831a7c3802"
+hash = "28c21974ccb992f1c46efea640c4e2785522ed57770bdc33fe4304869841ddd3"
 
 [[files]]
 file = "config/exoticbirds-common.toml"
