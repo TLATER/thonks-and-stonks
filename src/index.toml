@@ -193,6 +193,15 @@ file = "config/openloader/data/thonk-stonk-balance-datapack.zip"
 hash = "5035a9f2e086e32f64a20667a4d3a82090e0ff22632afdb56a189e40d3fe5d5b"
 
 [[files]]
+file = "config/openloader/resources/_Faithless1.18 Fixes.zip"
+hash = "6b997926339afae867c4d0653e0d3d18505a1bf979c63c1841b4dffc4d3bff3a"
+
+[[files]]
+file = "config/openloader/resources/faithless.pw.toml"
+hash = "2fda775015e56133f742aead36a2dc57f773c4b0dd836f8b11bf942a7e0289f3"
+metafile = true
+
+[[files]]
 file = "config/quark-common.toml"
 hash = "f7665f8bc5e3d72a0160d264a1f71d2888ddc4f73e5c90c7f2b7f1f1581da410"
 
@@ -917,17 +926,8 @@ metafile = true
 
 [[files]]
 file = "options.txt"
-hash = "f959e99629aa314786c9ebc60bfa843280124737e78c3daa796e59d7102ee4af"
+hash = "844c808331f09ff9340bd17855b0d9963bab2651e84d3c8283999f4af1155bc1"
 preserve = true
-
-[[files]]
-file = "resourcepacks/Faithless1.18 Fixes.zip"
-hash = "6b997926339afae867c4d0653e0d3d18505a1bf979c63c1841b4dffc4d3bff3a"
-
-[[files]]
-file = "resourcepacks/faithless.pw.toml"
-hash = "2fda775015e56133f742aead36a2dc57f773c4b0dd836f8b11bf942a7e0289f3"
-metafile = true
 
 [[files]]
 file = "shaderpacks/Sildur's Vibrant Shaders v1.50 Extreme-VL.zip.txt"
