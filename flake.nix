@@ -2,7 +2,7 @@
   description = "Simple Minecraft datapack to remove elytras from the game";
 
   inputs = {
-    nixpkgs.url = "github:nixos/nixpkgs/nixos-22.11";
+    nixpkgs.url = "github:nixos/nixpkgs/nixos-unstable";
     packwiz = {
       url = "github:packwiz/packwiz";
       inputs.nixpkgs.follows = "nixpkgs";
@@ -19,12 +19,25 @@
   in {
     packages.${system} = import ./nix {inherit self pkgs packwiz;};
 
+    checks.${system} = import ./nix/checks {inherit self pkgs;};
+
     devShells.${system}.default = pkgs.mkShell {
       packages = with pkgs; [
         packwiz.packages.${system}.default
 
         unzip
         zip
+
+        (python311.withPackages (ppkgs:
+          with ppkgs; [
+            python-lsp-server
+            pylsp-mypy
+            python-lsp-black
+            pyls-isort
+            pycodestyle
+            pydocstyle
+            pylint
+          ]))
       ];
     };
   };
