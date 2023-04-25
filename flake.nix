@@ -17,7 +17,7 @@
     system = "x86_64-linux";
     pkgs = nixpkgs.legacyPackages.${system};
   in {
-    packages.${system} = import ./nix {inherit self pkgs packwiz;};
+    apps.${system} = import ./nix/scripts {inherit self pkgs;};
 
     checks.${system} = import ./nix/checks {inherit self pkgs;};
 

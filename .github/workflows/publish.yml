@@ -1,6 +1,8 @@
 name: Publish modpack version
 on:
   push:
+    tags:
+      - '*'
   workflow_dispatch:
 
 permissions:
@@ -20,16 +22,13 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
-      - uses: cachix/install-nix-action@v18
+        with:
+          fetch-depth: 0
+      - uses: cachix/install-nix-action@v19
         with:
           github_access_token: ${{ secrets.GITHUB_TOKEN }}
       - run: |
-          nix build .#page
-
-          # Move these since GitHub wants to mess with file
-          # permissions and the nix store prohibits that
-          mkdir -p pages-output/
-          cp -r result/* pages-output/
+          nix run .#deploy-pages -- pages-output/
       - uses: actions/configure-pages@v2
       - uses: actions/upload-pages-artifact@v1
         with:
