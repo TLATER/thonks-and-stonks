@@ -60,7 +60,8 @@ def publish_pages(repo: Path, outpath: Path):
     # Finally, write a little index page so that we can easily
     # navigate the various versions
     links = "\n".join(
-        f"- [{version}](/{version}/pack.toml)" for version in sorted(versions.keys())
+        f"- [{version}]({version}/pack.toml)"
+        for version in sorted(versions.keys(), reverse=True)
     )
     # indent the links by just as much as the other lines in the
     # markdown string, so that `dedent` behaves correctly
@@ -81,7 +82,7 @@ def publish_pages(repo: Path, outpath: Path):
                        page][packwiz-installer-latest] (the `.jar` file)
                     4. Put the installer in the `.minecraft` directory of the instance you
                        created
-                    5. Copy [this link](/{sorted(versions)[0]}/pack.toml) or any of the
+                    5. Copy [this link]({sorted(versions, reverse=True)[0]}/pack.toml) or any of the
                        links in [Versions](#Versions) (right mouse button + copy link)
                     6. Go to your instance configuration, to Settings > Custom Commands
                     7. Tick the `Custom Commands` box and enter the following into the
