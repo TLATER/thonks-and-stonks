@@ -1,11 +1,15 @@
 #!/usr/bin/env python3
 
+import logging
 import os
 import shutil
 import subprocess
 import sys
 import tempfile
 from pathlib import Path
+
+logging.basicConfig(level=logging.DEBUG)
+logger = logging.getLogger(__name__)
 
 
 def main():
@@ -19,19 +23,33 @@ def main():
     if not os.getenv("CI"):
         with tempfile.TemporaryDirectory() as temp:
             subprocess.check_output(["git", "clone", os.getcwd(), temp])
-            publish_tags(Path(temp), outpath)
+            publish_pages(Path(temp), outpath)
     else:
-        publish_tags(Path(os.getcwd()), outpath)
+        publish_pages(Path(os.getcwd()), outpath)
 
 
-def publish_tags(repo: Path, outpath: Path):
-    tags = subprocess.check_output(
-        ["git", "tag", "--list"], cwd=repo, text=True
+def publish_pages(repo: Path, outpath: Path):
+    # Get a list of all tags and branches to publish
+    versions = subprocess.check_output(
+        [
+            "git",
+            "for-each-ref",
+            "--format=%(refname:short)",
+            "refs/remotes",
+            "refs/tags",
+        ],
+        cwd=repo,
+        text=True,
     ).splitlines()
+    logger.debug(f"Versions to publish: {versions}")
 
-    for tag in tags:
-        subprocess.check_call(["git", "checkout", f"tags/{tag}"], cwd=repo)
-        shutil.copytree(repo / "src", outpath / str(tag), copy_function=shutil.copy)
+    for version in versions:
+        logger.debug(f"Checking out {version}")
+        subprocess.check_call(["git", "checkout", version], cwd=repo)
+
+        # Branches that start with `origin` should not start with `origin`
+        name = version.removeprefix("origin/")
+        shutil.copytree(repo / "src", outpath / name, copy_function=shutil.copy)
 
 
 if __name__ == "__main__":
