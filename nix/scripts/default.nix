@@ -10,6 +10,7 @@
 
       propagatedBuildInputs = with pkgs; [
         git
+        python311.pkgs.mistune
       ];
 
       format = "other";
